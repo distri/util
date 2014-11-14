@@ -13,7 +13,7 @@ Apply a stylesheet idempotently.
         styleNode.id = id
 
         if previousStyleNode = document.head.querySelector("style##{id}")
-          previousStyleNode.parentNode.removeChild(prevousStyleNode)
+          previousStyleNode.parentNode.removeChild(previousStyleNode)
 
         document.head.appendChild(styleNode)
 
